@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Test Compiled",
+            "type": "node",
+            "request": "launch",
+            "sourceMaps": true,
+            "smartStep": true,
+            "args": ["./dist/test.js"],
+            "cwd": "${workspaceRoot}",
+            "protocol": "inspector",
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+    ]
+}
