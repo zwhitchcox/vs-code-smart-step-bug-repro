@@ -6,7 +6,11 @@
             "type": "node",
             "request": "launch",
             "sourceMaps": true,
-            "smartStep": true,
+            "smartStep": false,
+            "skipFiles": [
+                "<node_internals>/**/*.js",
+                "${workspaceRoot}/dist/test.js"
+            ],
             "args": ["./dist/test.js"],
             "cwd": "${workspaceRoot}",
             "protocol": "inspector",

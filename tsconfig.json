@@ -19,7 +19,7 @@
     ],
   },
   "files": [
-    "test.ts"
+    "run-test.ts"
   ],
   "exclude": [
     "node_modules"
